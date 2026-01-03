@@ -36,56 +36,64 @@
     <main>
       <section id="about">
       <h2>About</h2>
-      <div class="section__description">
-        <div class="section__description--wrapper">
-          <p class="section__description--para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-            consequatur temporibus error blanditiis debitis a ratione omnis aut
-            animi cumque?
-          </p>
-          <p class="section__description--para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-            consequatur temporibus error blanditiis debitis a ratione omnis aut
-            animi cumque?
-          </p>
+      <div class="row">
+        <div class="section__description">
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              consequatur temporibus error blanditiis debitis a ratione omnis aut
+              animi cumque?
+            </p>
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              consequatur temporibus error blanditiis debitis a ratione omnis aut
+              animi cumque?
+            </p>
+          </div>
+          <figure class="about__image--wrapper">
+            <img src="./assets/about.jpg" alt="" />
+          </figure>
         </div>
-        <figure class="about__image--wrapper">
-          <img src="./assets/about.jpg" alt="" />
-        </figure>
       </div>
+      </section>
 
       <section id="discord">
       <h2>Discord</h2>
-      <div class="section__description">
-          <figure class="about__image--wrapper">
-            <img src="./assets/discord.png" alt="Discord" />
-          </figure>
-          <div class="section__description--wrapper">
-            <p class="section__description--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis
-              distinctio excepturi pariatur ex. Rem excepturi numquam quasi! Eos,
-              distinctio.
-            </p>
+      <div class="row">
+        <div class="section__description">
+            <figure class="about__image--wrapper">
+              <img src="./assets/discord.png" alt="Discord" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis
+                distinctio excepturi pariatur ex. Rem excepturi numquam quasi! Eos,
+                distinctio.
+              </p>
+            </div>
           </div>
         </div>
+      </section>
+
       <section id="contact">
         <h2>Contact</h2>
         <form action="">
           <label>Email</label>
-          <input type="text" placeholder="janedoe@example.com">
+          <input type="email" placeholder="janedoe@example.com">
           <label>Message</label>
-          <textarea type="text"></textarea>
+          <textarea type="text" placeholder="Cool Website"></textarea>
+          <button>Contact Us</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <img src="./assets/FES.svg" alt="">
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="">Courses</a>
+      <img class="footer__logo" src="./assets/FES.svg" alt="">
+      <div class="footer__links">
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="">Courses</a>
+        <a class="footer__link" href="#about">About</a>
       </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
