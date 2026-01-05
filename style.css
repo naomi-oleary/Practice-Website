@@ -246,7 +246,7 @@ RESPONSIVITY
         font-size: 18px;
     }
 
-    ,footer__links {
+    .footer__links {
         margin-bottom: 24px;
     }
 }
